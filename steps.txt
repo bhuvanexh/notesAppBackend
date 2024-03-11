@@ -1,0 +1,20 @@
+✓
+
+
+
+> setting Up backend routes    ✓
+> express routers              ✓
+> connecting MongoDb           ✓
+> creating Database            ✓
+> cors                          ✓
+
+> go through process         ✓
+> implement try catch and error handlers  .. 
+ { >remove unnecessary function from userclass ✓  
+   > error handling for index        ✓  
+   > understand constraint js working   ✓ }
+> connect Notes with user    ✓
+> check for same email       ✓
+
+
+
