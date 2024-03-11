@@ -1,0 +1,30 @@
+# Dependency directories
+/node_modules
+
+# Environment variables file
+.env
+
+# Compiled output
+/build
+/dist
+
+# IDE/Editor specific files
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs
+*.log
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
