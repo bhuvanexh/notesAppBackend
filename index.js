@@ -16,6 +16,7 @@ const LocalStrategy = passport_local.Strategy
 const app = express()
 const PORT = process.env.PORT || 5000;
 
+app.set("trust proxy", 1);
 
 app.use(cookieSession({
     name: 'notes-auth',
@@ -31,7 +32,6 @@ app.use(
     })
 );
 
-app.set("trust proxy", 1);
 
 app.use(express.json())
 
