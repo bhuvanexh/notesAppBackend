@@ -14,7 +14,7 @@ dotenv.config();
 const LocalStrategy = passport_local.Strategy
 
 const app = express()
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5000;
 
 
 app.use(cookieSession({
@@ -25,7 +25,8 @@ app.use(cookieSession({
 
 app.use(
     cors({
-        origin: `${process.env.originURL}`,
+        // origin: `${process.env.originURL}`,
+        origin: "http://localhost:5173",
         credentials: true,
     })
 );
