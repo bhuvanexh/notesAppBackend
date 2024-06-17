@@ -21,7 +21,10 @@ app.set("trust proxy", 1);
 app.use(cookieSession({
     name: 'notes-auth',
     keys: ['secret-new', 'secret-old'],
-    maxAge: 60 * 60 * 24 * 7
+    maxAge: 60 * 60 * 24 * 7,
+    secure: true,
+    sameSite: 'none',
+    httpOnly: true
 }))
 
 app.use(
